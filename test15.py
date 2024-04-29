@@ -7,7 +7,12 @@ mybasket = ['apple', 'orange', 'banana' , 'grapes ' , 'mango' , 'peach' ]
 # print(mybasket[0])
 # print(mybasket[1:5])
 # print(mybasket[2:])
-print(mybasket[:5])
+# print(mybasket[:5])
 
-if 'peach' in mybasket:
-    print("YES it is")
+# if 'peach' in mybasket:
+#     print("YES it is")
+
+# mybasket.insert(1, "ice")
+# print(mybask)
+mybasket[2] = "Grapes"
+print(mybasket)
